@@ -143,18 +143,29 @@
   line-height: 1.8;
 }
 .page-lantern {
-  position: relative;
-  z-index: 1;
   width: 62px;
   height: 86px;
-  margin-bottom: 14px;
-  border: 1px solid rgba(188,167,125,.22);
+
   border-radius: 44% 44% 28% 28%;
+
   background:
-    radial-gradient(circle at 50% 68%, rgba(255,183,81,.72), rgba(130,79,28,.18) 33%, transparent 58%),
-    linear-gradient(rgba(216,199,157,.18), rgba(0,0,0,.12));
-  box-shadow: 0 0 22px rgba(255,183,81,.12);
-  opacity: .86;
+    radial-gradient(
+      circle at 50% 68%,
+      rgba(255,220,160,.95),
+      rgba(255,180,80,.45) 30%,
+      transparent 65%
+    ),
+    linear-gradient(
+      rgba(255,255,255,.10),
+      rgba(0,0,0,.18)
+    );
+
+  border: 1px solid rgba(255,220,180,.35);
+
+  box-shadow:
+    0 0 12px rgba(255,220,160,.35),
+    0 0 40px rgba(255,180,80,.20),
+    0 0 80px rgba(255,180,80,.10);
 }
 
 @media (max-width: 900px) {
