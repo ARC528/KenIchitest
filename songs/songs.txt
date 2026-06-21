@@ -3,6 +3,6 @@
 # x,y は画面上の配置位置（%）です
 
 diary|BLOODY BULLET|https://youtube.com/shorts/Ji_hHWplX7I|28|21
-diary|BLOODY BULLET|https://youtu.be/8K0NR0kJvq0|60|28
+diary|遠く遠く|https://youtu.be/8K0NR0kJvq0|60|28
 #prayer|夜の港で|https://www.youtube.com/|0|28
 #night|窓辺のギター|https://www.youtube.com/|78|41
